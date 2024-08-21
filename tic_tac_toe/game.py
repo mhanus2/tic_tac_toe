@@ -47,6 +47,7 @@ class Game:
 
     def play(self) -> None:
         """Main loop of game."""
+        self.show_board()
         while self._active:
             if self._available_locations:
                 location = input(

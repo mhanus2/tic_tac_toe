@@ -11,7 +11,6 @@ while play:
         continue
     playing_symbol = PlayingSymbol(playing_symbol)
     game = Game(playing_symbol)
-    game.show_board()
     game.play()
 
     next_game = None
